@@ -42,3 +42,7 @@
 
 # PlatformIO
 .pio/
+
+# esp-idf
+managed_components/
+dependencies.lock
