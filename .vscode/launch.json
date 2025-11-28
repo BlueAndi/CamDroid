@@ -12,9 +12,9 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "/home/amerkle/projects/CamDroid/.pio/build/esp32cam/firmware.elf",
+            "executable": "C:/Projekte/NewTec/rework/CamDroid/.pio/build/esp32cam/firmware.elf",
             "projectEnvName": "esp32cam",
-            "toolchainBinDir": "/home/amerkle/.platformio/packages/toolchain-xtensa-esp32/bin",
+            "toolchainBinDir": "C:/Users/rsing/.platformio/packages/toolchain-xtensa-esp-elf/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "preLaunchTask": {
                 "type": "PlatformIO",
@@ -25,18 +25,18 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "/home/amerkle/projects/CamDroid/.pio/build/esp32cam/firmware.elf",
+            "executable": "C:/Projekte/NewTec/rework/CamDroid/.pio/build/esp32cam/firmware.elf",
             "projectEnvName": "esp32cam",
-            "toolchainBinDir": "/home/amerkle/.platformio/packages/toolchain-xtensa-esp32/bin",
+            "toolchainBinDir": "C:/Users/rsing/.platformio/packages/toolchain-xtensa-esp-elf/bin",
             "internalConsoleOptions": "openOnSessionStart"
         },
         {
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (without uploading)",
-            "executable": "/home/amerkle/projects/CamDroid/.pio/build/esp32cam/firmware.elf",
+            "executable": "C:/Projekte/NewTec/rework/CamDroid/.pio/build/esp32cam/firmware.elf",
             "projectEnvName": "esp32cam",
-            "toolchainBinDir": "/home/amerkle/.platformio/packages/toolchain-xtensa-esp32/bin",
+            "toolchainBinDir": "C:/Users/rsing/.platformio/packages/toolchain-xtensa-esp-elf/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "loadMode": "manual"
         }
