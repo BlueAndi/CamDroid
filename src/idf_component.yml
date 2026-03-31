@@ -4,5 +4,5 @@ dependencies:
     version: ">=2.0.3"
   idf:
     version: ">=5.1.0"
-  espressif/opencv:
-    version: "4.10.0~3"
+  # espressif/opencv:
+  #   version: "4.10.0~3"
