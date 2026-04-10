@@ -52,19 +52,21 @@
 /******************************************************************************
  * External functions
  *****************************************************************************/
+/**
+ * @brief setup
+ */
+void setup()
+{
+    /* Nothing to do */
+}
 
 /**
- * @brief Application main entry point.
+ * @brief loop
  */
-extern "C" void app_main()
+void loop()
 {
-    /* Application entry point */
-    while (1)
-    {
-        /* Nothing to do. */
-    }
-
-    /* Should never reach this point. */
+    uint8_t test = cv::COVAR_SCRAMBLED;
+    /* Nothing to do */
 }
 
 /******************************************************************************
