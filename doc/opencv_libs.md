@@ -1,15 +1,10 @@
 # Static espressif__opencv library
 
-## Clone pioOpenCV for opencv_libs
+## Use of pioOpenCV as lib
 
-Clone the pioOpenCV repository (https://github.com/BlueAndi/pioOpenCV). Easiest way for later steps is to have it next to the CamDroid project.
+The lib pioOpenCV (https://github.com/BlueAndi/pioOpenCV) is used as precompiled static lib. It is included in the platormio.ini file: ```lib_deps =     https://github.com/BlueAndi/pioOpenCV.git#feature/opencv_build```. So it will be managed by platformio itself.
 
 ### Rebuild opencv_libs
 
-If the lib needs to be updated, follow the build instructions in pioOpenCV and execute the script ```copyLibs.bat```.
+If the lib needs to be updated, follow the instructions in pioOpenCV README.
 
-## Link opencv_libs into CamDroid workspace
-
-Execute the script ```createLink.bat``` if pioOpenCV is next to CamDroid.
-
-If not adapt the target path in the script ("set TARGET="..\pioOpenCV\opencv_libs"") to point on pioOpenCV\opencv_libs in your pioOpenCV Clone. Then execute the script.
