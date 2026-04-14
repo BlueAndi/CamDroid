@@ -6,13 +6,24 @@ The CamDroid computer vision is used for line/road detection.
 
 ### get PlatformIO extension for VSCode
 
-Install the extension "PlatformIO IDE" from PlatformIO (https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide).
+Install the extension "PlatformIO IDE" from PlatformIO (<https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide>).
 
 ### open and build project CamDroid
 
 - Open the cloned project in a new VS Code window.
 - Switch to the extension "PlatformIO IDE" and wait till the project is configured.
 - Execute command "Build".
+
+## Used Libraries
+
+| Library                                                                                        | Description                                                                                                                                    | License    |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| [Arduino](https://github.com/platformio/platform-espressif32)                                  | ESP32 Arduino framework                                                                                                                        | Apache-2.0 |
+| [pioOpenCV](https://github.com/BlueAndi/pioOpenCV)                                             | OpenCV prepared as PlatformIO library                                                                                                          | MIT        |
+
+## Issues, Ideas And Bugs
+
+If you have further ideas or you found some bugs, great! Create a [issue](https://github.com/BlueAndi/pioOpenCV/issues) or if you are able and willing to fix it by yourself, clone the repository and create a pull request.
 
 ## License
 
