@@ -4,11 +4,11 @@ The CamDroid computer vision is used for line/road detection.
 
 ## Build the project
 
-### get PlatformIO extension for VSCode
+### Get PlatformIO extension for VSCode
 
-Install the extension "PlatformIO IDE" from PlatformIO (<https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide>).
+Install the extension [PlatformIO IDE](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide) from PlatformIO.
 
-### open and build project CamDroid
+### Open and build project CamDroid
 
 - Open the cloned project in a new VS Code window.
 - Switch to the extension "PlatformIO IDE" and wait till the project is configured.
@@ -16,10 +16,10 @@ Install the extension "PlatformIO IDE" from PlatformIO (<https://marketplace.vis
 
 ## Used Libraries
 
-| Library                                                                                        | Description                                                                                                                                    | License    |
-| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| [Arduino](https://github.com/platformio/platform-espressif32)                                  | ESP32 Arduino framework                                                                                                                        | Apache-2.0 |
-| [pioOpenCV](https://github.com/BlueAndi/pioOpenCV)                                             | OpenCV prepared as PlatformIO library                                                                                                          | MIT        |
+| Library                                                       | Description                           | License    |
+| ------------------------------------------------------------- | ------------------------------------- | ---------- |
+| [Arduino](https://github.com/platformio/platform-espressif32) | ESP32 Arduino framework               | Apache-2.0 |
+| [pioOpenCV](https://github.com/BlueAndi/pioOpenCV)            | OpenCV prepared as PlatformIO library | MIT        |
 
 ## Issues, Ideas And Bugs
 
