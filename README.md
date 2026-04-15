@@ -23,7 +23,7 @@ Install the extension [PlatformIO IDE](https://marketplace.visualstudio.com/item
 
 ## Issues, Ideas And Bugs
 
-If you have further ideas or you found some bugs, great! Create a [issue](https://github.com/BlueAndi/pioOpenCV/issues) or if you are able and willing to fix it by yourself, clone the repository and create a pull request.
+If you have further ideas or you found some bugs, great! Create a [issue](https://github.com/BlueAndi/CamDroid/issues) or if you are able and willing to fix it by yourself, clone the repository and create a pull request.
 
 ## License
 
