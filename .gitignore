@@ -31,6 +31,7 @@
 *.la
 *.a
 *.lib
+lib/opencv_libs/*
 
 # Executables
 *.exe
@@ -39,3 +40,10 @@
 
 # debug information files
 *.dwo
+
+# PlatformIO
+.pio/
+
+# esp-idf
+managed_components/
+dependencies.lock
